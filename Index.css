@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url(Fonts/BebasNeue\Bold.otf) format(otf);
+    src: url(fonts/BebasNeueBold.otf) format(otf);
 }
 
 body {
@@ -33,7 +33,6 @@ body {
 .childblue {
     position: sticky;
     top: 8vw;
-    /* margin-top: 6vw; */
     margin-left: 20%;
     padding-bottom: 200px;
 }
@@ -94,13 +93,6 @@ li {
     margin: 5vw;
 }
 
-/*.pics{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
-}*/
 
 .pics {
     --gab: 16px;
@@ -397,17 +389,47 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
-    color: blue;
-    text-decoration: none;
-
-}
 
 a:visited {
     color: white;
     text-decoration: none;
 }
 
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+
+}
+
+.container-start{
+display: flex;
+}
+
+.sprint1, .sprint3, .sprint2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 33.3vw;
+}
+
+.sprint1{
+    background-color: blue;
+
+}
+
+.sprint2{
+    background-color: blue;
+    background-image: url(img/whales/cristian-palmer-XexawgzYOBc-unsplash.jpg);
+    background-size: cover;
+}
+
+.sprint3{
+    background-color: blue;
+    background-image: url(img/clouds-sky-background.jpeg);
+    background-size: cover;
+}
 
 @media screen and (max-width:1024px) {
 
