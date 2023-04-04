@@ -62,11 +62,14 @@ h3 {
 }
 
 .bild1 {
-    background-color: rgb(140, 0, 255);
     max-width: 20vw;
     max-height: 35vh;
-}
+    transition: all 0.2s ease-in-out;
+    }
 
+.bild1:hover{
+filter: brightness(50%);
+}
 
 p,
 li {
@@ -98,14 +101,6 @@ li {
     height: 80vh;
     margin: 5vw;
 }
-
-/*.pics{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
-}*/
 
 .pics {
     --gab: 16px;
@@ -198,26 +193,28 @@ li {
 }
 
 
-.cloud-links {
+.cloudlinks {
+    position: absolute;
+    transform: translate(-270%);
     max-width: 30vw;
     grid-column: 2 / 8;
     grid-row: 3/4;
-    margin-left: -10%;
+    margin-left: 10%;
 
 }
 
-.cloud-rechts {
+.cloudrechts {
+    position: absolute;
+    transform: translate(-195%);
     max-width: 30vw;
-    right: 17vw;
-    top: 45vh;
-    grid-column: 6/ 8;
+    grid-column: 8;
     grid-row: 3/4;
 
 }
 
 
 .parent1-plane {
-    background-color: rgba(117, 157, 203, 0.759);
+   /* background-color: rgba(117, 157, 203, 0.759);*/
     width: 50%;
 
 }
@@ -232,7 +229,7 @@ li {
 .parent1-plane-text {
     padding-top: 10vh;
     max-width: 30vw;
-    text-align: justify;
+   /* text-align: justify;*/
     padding-bottom: 10vh;
 }
 
@@ -391,12 +388,33 @@ li {
     writing-mode: vertical-lr;
 }
 
+.planeshome {
+    position: fixed;
+    left: 1vw;
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+}
+
+a.whaleshome:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.whaleshome:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a.whaleshome:hover {
+    color: blue ;
+    text-decoration: none;
+}
+
 a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
 }
-
 
 a:visited {
     color: white;
@@ -408,6 +426,13 @@ a:hover {
     text-decoration: none;
 }
 
+
+
+.whaleshome{
+    position: fixed;
+    right: 1vw;
+    writing-mode: vertical-lr;
+}
 
 @media screen and (max-width:1024px) {
 
@@ -461,11 +486,6 @@ a:hover {
 
     .art1 {
         max-width: 66vw;
-    }
-
-    .bild1 {
-        max-width: 50vw;
-        max-height: 35vh;
     }
 
     .testimony {
