@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*------ nav ------*/
+#menu {
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    list-style-type: none;
+
+    align-items: center;
+    z-index: 4;
+    margin: 0%;
+    padding: 0%;
+}
+
+.backsprints {
+    position: fixed;
+    left: 47vw;
+    top: 1vh;
+}
+
+
+.planeshome {
+    position: fixed;
+    left: 1vw;
+    writing-mode: vertical-rl;
+    transform: rotateZ(180deg);
+}
+
+a:link {
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:visited {
+
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(53, 53, 212);
+    text-decoration: none;
+}
+
+a.backsprints:link {
+    color: blue;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+a.backsprints:visited {
+    color: blue;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+a.backsprints:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-text-stroke: 0.8px rgb(38, 0, 255);
+}
+
+a.whaleshome:link {
+    color: blue;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+a.whaleshome:visited {
+    color: blue;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+a.whaleshome:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-text-stroke: 0.8px rgb(38, 0, 255);
+}
+
+.whaleshome {
+    position: fixed;
+    right: 1vw;
+    writing-mode: vertical-lr;
+}
+
+a.planeshome:link {
+    color: blue;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+a.planeshome:visited {
+    color: blue;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+a.planeshome:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-text-stroke: 0.8px rgb(38, 0, 255);
+}
+
+/*------ nav ------*/
+
+.wrapper {
+    background-color: rgb(26, 148, 248);
+    width: 45%;
+    height: 100%;
+}
+
+p {
+    font-family: 'Lato';
+}
+
+.adresse{
+    color: white;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    position: relative;
+    bottom: 30px;
+    left: 220px;
+}
+
+a {
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+article {
+    display: flex;
+    margin-left: -30px;
+}
+
+
+.kind {
+    padding: 20px;
+
+}
+
+.KindText {
+    font-size: 1.3rem;
+font-weight: 700;
+    color: white;
+    position: relative;
+    top: 80px;
+}
+
+.navimg{
+    padding-bottom: 60px;
+    width: 200px;
+  object-position: right top;
+}
+
+.page{
+    display:flex;
+    
+}
+
+.president {
+    position: relative;
+    top: 180px;
+   width: 700px;
+   height: auto;
+}
+
+.title{
+    color: white;
+    width: 600px;
+padding-left: 10px ;
+padding-top: 20px;
+padding-bottom: 10px;
+font-size: 3rem;
+background-color: rgb(51, 51, 51);
+text-align: center;
+}
+
+.presidenttext {
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.eventimg{
+    width: 600px;
+    height: auto;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 10px;
+}

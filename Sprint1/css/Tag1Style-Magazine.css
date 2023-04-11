@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {/*writing-mode: vertical-lr; Testweise Kommentare entfernen*/
+    background-image: url('../img/abstract-WHALE.png');
+    background-size: cover;
+}
+
+/* -------- nv ----- */
+
+#menu {
+    font-family: 'Lato';
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    list-style-type: none;
+
+    align-items: center;
+    z-index: 4;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.backsprintsgeneral {
+    position: fixed;
+    left: 47vw;
+    top: 1vh;
+}
+
+
+.home {
+    position: fixed;
+    left: 1vw;
+    writing-mode: vertical-lr;
+    transform: rotateZ(180deg);
+}
+
+.planes {
+    top: 50vh;
+    position: fixed;
+    right: 1vw;
+    writing-mode: vertical-lr;
+}
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(53, 53, 212);
+    text-decoration: none;
+}
+
+
+/* ------ nav --- */
+
+h1{
+    font-family: "Bebas Neue";
+    font-style: Bold;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.grid-container{
+    padding-top: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+ }
+.colum1{
+    width: 700px;
+    height: auto;
+}
+ .colum2{
+    padding-top: 90px;
+    padding-left: 40px;
+    width: 700px;
+    height: auto;
+ }
+
+ 
+ .whaleimg{
+    position: relative;
+    padding-left: 100px;
+    width:500px;
+    height: auto;
+ }
+ .haupttext{
+    hyphens: auto; 
+	text-align: justify;
+ }
+.textrechts{
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.dvd{
+    width: 150px;
+    height: auto;
+    position: relative;
+}
+
+.last{
+    display: flex;
+}
+
+.presi{
+    margin-top: 50px;
+    display: flex;
+}
+
+.presiimg{
+    width: 100px;
+    height: 100px;
+}
+
+span{
+    font-family: "Bebas Neue";
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.textpresi{
+    padding-left: 20px;
+    font-size: 0.8rem;
+    margin: 0px;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.container-start {
+    display: flex;
+    flex-direction: column
+}
+
+.Allsprints {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.sprint1,
+.sprint2,
+.sprint3{
+    display: flex;
+    justify-content: center;
+    width: 33.3vw;
+    align-items: center;
+}
+
+.pdf{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(46, 52, 75);
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #234bdc;
+}
+
+a.sprint1link:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke:1.5px  #234bdc;
+}
+
+a.sprint1link:visited{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1.5px  #234bdc;
+}
+
+a.sprint1link:hover{
+    text-decoration: none;
+    color: #234bdc;
+}
+
+.sprint1 {
+    background-color: #234bdc;
+    background-image: url(./Sprint1/img/abstract-WHALE.png);
+    background-size: 100vw;
+    background-position: bottom;
+}
+
+a.sprint2link:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke:1px  #ffffff;
+}
+
+a.sprint2link:visited{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px  #ffffff;
+}
+
+a.sprint2link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sprint2 {
+    background-color: #234bdc;
+    background-size: cover;
+}
+
+
+a.sprint3link:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke:1px  #ffffff;
+}
+
+a.sprint3link:visited{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px  #ffffff;
+}
+
+a.sprint3link:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sprint3 {
+    background-color: #234bdc;
+    background-image: url(img/whales/cristian-palmer-XexawgzYOBc-unsplash.jpg);
+    background-size: cover;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
